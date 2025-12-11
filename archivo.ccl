@@ -1,0 +1,146 @@
+/* Estilos generales */
+body {
+    font-family: Comic Sans MS, sans-serif;
+    background-color: #22a822;
+    margin: 0;
+    padding: 0;
+}
+
+/* ✔ Cambiar color de los títulos */
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+/* ✔ Selector p + color blue (pedido obligatorio) */
+p {
+    color: blue;
+}
+
+/* ✔ Clase reutilizable (para aplicar estilo especial) */
+.destacado {
+    background-color: #f0ffe0;
+    padding: 8px;
+    border-left: 4px solid #1c720b;
+}
+
+/* ✔ ID único para footer */
+#pie {
+    background-color: #03ab03;
+    color: white;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: #01ff888e;
+    padding: 20px;
+}
+
+/* Logo */
+.header {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    justify-content: center;
+    overflow: hidden;
+}
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Menú */
+nav ul {
+    list-style: none;
+    background-color: #1c720b;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+
+    /* ✔ Modelo de caja */
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+/* ✔ Hover mejorado */
+nav ul li a:hover {
+    background-color: white;
+    color: #1c720b;
+    border: 1px solid #1c720b;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Imagen Historia */
+.historia {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.historia img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+/* Localidades */
+.localidades {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.localidades img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background-color: #8ff739;
+    color: white;
+}
+td, th {
+    border: 1px solid #b6fb9a;
+    text-align: center;
+    padding: 8px;
+}
+
+/* Galería */
+.galeria {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.galeria img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+/* Footer — con ID aplicado */
+footer#pie {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
